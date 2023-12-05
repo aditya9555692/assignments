@@ -14,6 +14,7 @@ function isPalindrome(str) {
   for(var i=0;i<str2.length/2;i++){
      if(str2[str2.length-1-i]!=str2[i]){
       console.log(4);
+      console.log(44);
       return false;
     }
   }
